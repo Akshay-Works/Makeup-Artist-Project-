@@ -1,1 +1,0 @@
-# Makeup-Artist-Project-
