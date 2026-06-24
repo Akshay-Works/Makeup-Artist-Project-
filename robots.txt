@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://anvitasharmabridal.com/sitemap.xml
+
+# Crawl-delay for responsible crawling
+Crawl-delay: 10
+
+# Disallow admin or private paths (none for this static site)
+# Disallow: /admin/
