@@ -392,7 +392,7 @@ window.toggleFaq = function(btn) {
     const message = (form.elements['message']?.value || '').trim();
 
     const waMsg = encodeURIComponent(
-      `Hi Anvita! 🌸\n\n` +
+      `Hi Ranjna! 🌸\n\n` +
       `*Name:* ${name}\n` +
       `*Phone:* ${phone}\n` +
       `*Wedding Date:* ${date}\n` +
@@ -408,7 +408,7 @@ window.toggleFaq = function(btn) {
     }
 
     setTimeout(() => {
-      window.open(`https://wa.me/919876543210?text=${waMsg}`, '_blank', 'noopener,noreferrer');
+      window.open(`https://wa.me/919356757131?text=${waMsg}`, '_blank', 'noopener,noreferrer');
     }, 800);
 
     setTimeout(() => { if (success) success.style.display = 'none'; }, 6000);
@@ -546,9 +546,9 @@ document.head.appendChild(bounceStyle);
   const toasts = [
     { name: 'Priya M.',  action: 'just booked Bridal Makeup',    time: '2 minutes ago'  },
     { name: 'Sneha K.',  action: 'left a 5-star review',         time: '15 minutes ago' },
-    { name: 'Ananya J.', action: 'booked the Luxury Package',    time: '32 minutes ago' },
-    { name: 'Riya D.',   action: 'enquired about Bridal Mehendi', time: '1 hour ago'    },
-    { name: 'Kavita P.', action: 'booked for December 2025',     time: '2 hours ago'    },
+    { name: 'Ananya J.', action: 'booked the Luxury Bridal Package',    time: '32 minutes ago' },
+    { name: 'Riya D.',   action: 'enquired about Mehendi', time: '1 hour ago'    },
+    { name: 'Kavita P.', action: 'booked for their wedding',     time: '2 hours ago'    },
   ];
   let idx = 0;
 
@@ -605,8 +605,8 @@ document.head.appendChild(bounceStyle);
   banner.id = 'urgencyBanner';
   banner.setAttribute('role', 'alert');
   banner.innerHTML = `
-    <span>🌸 Only <strong>3 dates left</strong> for the 2025–26 wedding season —
-      <a href="https://wa.me/919876543210?text=Hi!%20I%20want%20to%20check%20availability."
+    <span>🌸 Only <strong>limited slots</strong> available this wedding season —
+      <a href="https://wa.me/919356757131?text=Hi!%20I%20want%20to%20check%20availability."
          target="_blank" rel="noopener noreferrer"
          style="color:var(--gold-light);text-decoration:underline;white-space:nowrap;">
         Check Your Date
@@ -737,7 +737,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /* ─── BRAND MESSAGE ──────────────────────────── */
 console.log(
-  '%c✨ Anvita Sharma Bridal Studio%c\nCrafted for Pune\'s most beautiful brides.',
+  '%c✨ Ranjna Sharma Bridal Studio%c\nServing Pune\'s most beautiful clients.',
   'color:#C9956C;font-size:1.1rem;font-weight:bold;font-family:Georgia,serif;',
   'color:#7A5C4E;font-size:.85rem;'
 );

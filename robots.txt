@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://anvitasharmabridal.com/sitemap.xml
+Sitemap: https://ranjnabeauty.com/sitemap.xml
 
 # Crawl-delay for responsible crawling
 Crawl-delay: 10
